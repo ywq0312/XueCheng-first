@@ -1,0 +1,279 @@
+.wrap{
+    height: 102px;
+    width: 100%;
+}
+.wrap-list{
+    height: 42px;
+    width: 1200px;
+}
+.wrap-logo{
+    float: left;
+    margin-right: 45px;
+}
+.wrap-nav li{
+    float: left;
+    line-height: 42px;
+    margin-left: 35px;
+}
+.search .search-inp{
+    float: left;
+    height: 42px;
+    width: 250px;
+    margin-left: 65px;
+    border: none;
+    border: 1px solid #00a4ff;
+    font-size: 14px;
+    border-right: none;
+    /* input里面会默认存在padding，所以要设置padding等于0 */
+    padding: 0 10px;
+    /* 设置了这个属性后表示设置的height:42px;里面包括margin和padding */
+    box-sizing: border-box;
+}
+.search .search-btn{
+    height: 42px;
+    width: 42px;
+    border: none;
+    background-color: #00a4ff;
+    border: 1px solid #00a4ff;
+}
+.wrap-search .search .fas{
+    font-size: 18px;
+} 
+.user{
+    float: right;
+    margin: 5px 15px;
+}
+.content{
+    height: 380px;
+    width: 100%;
+    background: url(../images/矩形54.png);
+}
+.main{
+    height: 380px;
+    width: 1000px;
+    margin: 0px auto;
+    background: url(../images/banner2.png);
+}
+.content-nav{
+    height: 380px;
+    width: 195px;
+    background-color:rgba(0,0, 0, .5);
+    float: left;
+}
+.content-nav a{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 16px;
+    line-height: 42px;
+}
+.content-nav i{
+    color: #fff;
+    float: right;
+    margin-right: 16px;
+    line-height: 35px;
+}
+.content-course{
+    float: right;
+    height: 280px;
+    width: 220px;
+    margin: 50px auto;
+    background-color:#fff;
+}
+.content-course .my-course{
+    height: 40px;
+    background-color: #9bceea;
+}
+.content-course .my-course span{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    /* 设置居中 */
+    text-align: center;
+    line-height: 40px;
+
+}
+.course-list li{
+    margin-top: 13px;
+    font-size: 14px;
+    margin-left: 18px;
+}
+.course-list .now{
+    display: block;
+    color: #bdbdbd;
+    margin-top: 4px;
+}
+.course-list .line{
+    width: 184px;
+    border-top: 1px solid #bdbdbd;
+    font-size: 2px;
+}
+.content-course .course-all{
+    width: 190px;
+    height: 40px;
+    border: 1px solid #33b6ff;
+    margin: 6px auto;
+}
+.content-course .course-all a{
+    display: block;
+    color: #33b6ff;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+}
+.mid-nav{
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 8px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #bdbdbd;
+}
+.mid-nav li{
+    float: left;
+    line-height: 50px;
+    margin-left: 25px;
+}
+.mid-nav .nav-good a{
+    color: #33b6ff;
+    font-weight: bold;
+}
+.mid-nav .nav-line{
+    font-size: 10px;
+    color: #bdbdbd;
+}
+.mid-nav .interest{
+    float: right;
+    color: #33b6ff;
+    font-size: 13px;
+    margin-right: 20px;
+}
+.good-main .good-you span{
+    display: inline-block;
+    font-size: 20px;
+    color: #494949;
+}
+.good-main .first-nav span{
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+.good-main .good-you a,
+.good-main .first-all{
+    color: #a5a5a5;
+    font-size: 13px;
+    float: right;
+    line-height: 24px;
+    margin-right: 30px;
+}
+.good-main .first-all{
+    line-height: 30px;
+}
+.course-lots{
+    margin-top: 4px;
+}
+.course-lots .one,
+.course-lots .two,
+.course-lots .three,
+.course-lots .four,
+.course-lots .five{
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.course-lots .one{
+    position: relative;
+}
+.course-lots .one .hot{
+    float: right;
+    position: absolute;
+    left: 152px;
+    top: 5px;
+}
+.good-main .first-nav{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 1000px;
+    margin-top: 20px;
+}
+.good-main .first-nav .first-text{
+    display: inline-block;
+    margin-left: 250px;
+}
+.good-main .first-nav .first-text a{
+    margin-left: 40px;
+}
+.first-nav .first-now{
+    color: #33b6ff;
+}
+.good-main .pyth-list li{
+    float: left;
+    margin-right: 15px;
+}
+.good-main .pyth-list .learn-pyth{
+    margin-bottom: 12px;
+}
+.good-main .unity-list li{
+    float: left;
+    margin-right: 15px;
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    margin-top: 30px;
+    position: relative;
+}
+.footer .xiazai{
+    float: left;
+}
+.footer .footer-logo p{
+    font-size: 12px;
+    color: #494949;
+    margin-top: 20px;
+    line-height: 18px;
+}
+.footer .footer-logo button{
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #33b6ff;
+    margin-top: 20px;
+}
+.footer .footer-logo a{
+    font-size: 17px;
+    color: #33b6ff;
+    font-weight: bold;
+}
+.footer .ours{
+    float: left;
+    margin-left: 100px;
+}
+.footer .ours span,
+.footer .xinshou span,
+.footer .friend span{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #494949;
+    font-weight: 600;
+}
+.footer .ours a,
+.footer .xinshou a,
+.footer .friend a{
+    display: block;
+    margin-top: 8px;
+    font-size: 13px;
+    color: rgb(41, 39, 39);
+}
+.footer .xinshou{
+    float: left;
+    margin-left: 100px;
+}
+.footer .friend{
+    float: left;
+    margin-left: 70px;
+}

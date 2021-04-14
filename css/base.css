@@ -1,0 +1,18 @@
+.clearfix::before,
+.clearfix::after{
+    display: table;
+    clear: both;
+    content: '';
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+body{
+    min-width: 1000px;
+    background-color: #f3f5f7;
+}
+.w{
+    width: 1000px;
+    margin: 30px auto;
+}
